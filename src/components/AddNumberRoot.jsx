@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import AddNumber from '../containers/AddNumber'
 
 class AddNumberRoot extends Component {
@@ -6,11 +6,10 @@ class AddNumberRoot extends Component {
     return (
       <div>
         <h1>Add Numer Root</h1>
-        <AddNumber/>
+        <AddNumber />
       </div>
-    );
+    )
   }
 }
 
-
-export default AddNumberRoot;
+export default AddNumberRoot
