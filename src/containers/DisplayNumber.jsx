@@ -6,10 +6,8 @@ function mapReduxStateToReactProps(state) {
     number: state.number,
   };
 }
-function mapReduxDispatchToReactProps() {
-  return {};
-}
-export default connect(mapReduxStateToReactProps, mapReduxDispatchToReactProps)(DisplayNumber);
+
+export default connect(mapReduxStateToReactProps)(DisplayNumber);
 
 //line3과 같은 코드
 /*
